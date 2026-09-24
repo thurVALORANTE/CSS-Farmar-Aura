@@ -169,8 +169,8 @@ footer {
     border-radius: var(--border-radius);
     overflow: hidden;
     margin-bottom: 2rem;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    border: 1px solid #334155;
+    box-shadow: 0 10px 25px ;
+    border: 1px solid #0ecf8f5d;
 }
 
 .tabela th, 
@@ -180,7 +180,7 @@ footer {
 }
 
 .tabela th {
-    background-color: #334155;
+    background-color: #0ba4856c;
     color: var(--primary);
     font-weight: 700;
     text-transform: uppercase;
@@ -189,7 +189,7 @@ footer {
 }
 
 .tabela tr {
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid #0ba48577;
 }
 
 .tabela tbody tr:last-child {
@@ -197,7 +197,7 @@ footer {
 }
 
 .tabela tbody tr:hover {
-    background-color: rgba(139, 92, 246, 0.08);
+    background-color: #0ba485;
 }
 
 /* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
@@ -216,10 +216,11 @@ a.btn {
 
 /* Nova variante para botões secundários/links externos */
 .btn-secundario {
-    background-color: #334155;
+    background-color: #0ba485;
     color: var(--text-primary);
 }
 
 .btn-secundario:hover {
-    background-color: #475569;
+    background-color: #0ba485;
 }
+/* --- IMAGEM --- */
