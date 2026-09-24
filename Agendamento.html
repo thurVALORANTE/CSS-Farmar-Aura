@@ -20,6 +20,18 @@
 
     <main>
         <h2>Faça sua Inscrição</h2>
+
+        <!-- Variantes de avisos usando a classe base 'card' -->
+        <div class="card card-info">
+            <h3>Aviso de Agendamento</h3>
+            <p>Preencha todos os campos obrigatórios para garantir seu horário.</p>
+        </div>
+
+        <div class="card card-alerta">
+            <h3>Atenção com a Data</h3>
+            <p>Tolerância máxima de 15 minutos de atraso no dia do evento.</p>
+        </div>
+
         <form action="#" method="post">
             <label for="nome">Nome Completo:</label>
             <input type="text" name="nome" id="nome" required>
@@ -46,10 +58,12 @@
                 <option value="Noite">Noite</option>
             </select>
             <br>
-            <label for="mensagem">Mensegem:</label>
+            <label for="mensagem">Mensagem:</label>
             <textarea name="mensagem" id="mensagem" rows="4"></textarea>
             <br>
-            <button type="submit">Confirmar inscrição.</button>
+
+            <!-- Exemplo de classe base (btn) + variante (btn-sucesso) -->
+            <button type="submit" class="btn btn-sucesso">Confirmar inscrição</button>
         </form>
     </main>
 

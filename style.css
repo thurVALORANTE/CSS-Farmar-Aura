@@ -8,8 +8,8 @@
 /* Base e tipografia */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #540a0a;
-    background-color: #F8FAFC;
+    color: #1a1a1a;
+    background-color: #ffffff;
     line-height: 1.6;
 }
 
@@ -27,7 +27,7 @@ h1 {
 h2 {
     font-size: 24px;
     margin-bottom: 8px;
-    color: #1E3A8A;
+    color: #540a0a;
 }
 
 p {
@@ -36,12 +36,12 @@ p {
 
 a {
     text-decoration: none;
-    color: #0284C7;
+    color: #080808;
 }
 
 /* Cabeçalho e navegação */
 header {
-    background-color: #1E3A8A;
+    background-color: #540a0a;
     color: #ffffff;
     padding: 32px 16px;
     text-align: center;
@@ -81,8 +81,145 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #1E3A8A;
+    background-color: #540a0a;
     color: #ffffff;
     text-align: center;
     padding: 24px 16px;
+}
+
+.card {
+    padding: 16px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card-info {
+    background-color: #dd6a6a87;
+    border-color: #540a0a;
+    color: #540a0a;
+}
+
+.card-destaque {
+    background-color: #fef9e7;
+    border-color: #f1c40f;
+    color: #7d6608;
+}
+
+/* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
+.aviso {
+    padding: 12px 16px;
+    border-radius: 6px;
+    border-left: 5px solid;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+/* Variantes dos Avisos */
+.aviso-info {
+    background-color: #e8f4f8;
+    border-color: #2980b9;
+    color: #1a5276;
+}
+
+.aviso-alerta {
+    background-color: #fef9e7;
+    border-color: #f39c12;
+    color: #7d6608;
+}
+
+/* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Variantes dos Botões */
+.btn-sucesso {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+.btn-limpar {
+    background-color: #95a5a6;
+    color: #ffffff;
+}
+
+/* --- ESTILIZAÇÃO DE TABELAS --- */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--bg-card);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border: 1px solid #334155;
+}
+
+.tabela th, 
+.tabela td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #334155;
+    color: var(--primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.tabela tr {
+    border-bottom: 1px solid #334155;
+}
+
+.tabela tbody tr:last-child {
+    border-bottom: none;
+}
+
+.tabela tbody tr:hover {
+    background-color: rgba(139, 92, 246, 0.08);
+}
+
+/* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
+a.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.acoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Nova variante para botões secundários/links externos */
+.btn-secundario {
+    background-color: #334155;
+    color: var(--text-primary);
+}
+
+.btn-secundario:hover {
+    background-color: #475569;
 }
