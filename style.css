@@ -1,226 +1,1669 @@
-/* Reset global */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ /* Reset global */
 
-/* Base e tipografia */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1a1a1a;
-    background-color: #ffffff;
-    line-height: 1.6;
-}
+ * {
 
-h1,
-h2,
-h3 {
-    font-family: Georgia, serif;
-    color: #1a1a1a;
-}
+     margin: 0;
 
-h1 {
-    font-size: 32px;
-}
+     padding: 0;
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 8px;
-    color: #540a0a;
-}
+     box-sizing: border-box;
 
-p {
-    margin-bottom: 16px;
-}
+ }
 
-a {
-    text-decoration: none;
-    color: #080808;
-}
 
-/* Cabeçalho e navegação */
-header {
-    background-color: #540a0a;
-    color: #ffffff;
-    padding: 32px 16px;
-    text-align: center;
-}
+ /* Base e tipografia */
 
-header h1 {
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
+ body {
 
-nav ul {
-    list-style: none;
-    margin-top: 12px;
-}
+     font-family: Arial, Helvetica, sans-serif;
 
-nav li {
-    display: inline-block;
-    margin: 0 16px;
-}
+     color: #1a1a1a;
 
-nav a {
-    color: #E0F2FE;
-    font-weight: bold;
-}
+     background-color: #ffffff;
+     line-height: 1.6;
 
-nav a:hover {
-    color: #ffffff;
-}
+ }
 
-/* Layout principal */
-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 32px 16px;
-}
 
-/* Rodapé */
-footer {
-    background-color: #540a0a;
-    color: #ffffff;
-    text-align: center;
-    padding: 24px 16px;
-}
+ h1,
 
-.card {
-    padding: 16px;
-    border-radius: 8px;
-    border-width: 2px;
-    border-style: solid;
-    margin-top: 15px;
-}
+ h2,
 
-.card h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
-}
+ h3 {
 
-.card p {
-    margin: 0;
-}
+     font-family: Georgia, serif;
 
-.card-info {
-    background-color: #dd6a6a87;
-    border-color: #540a0a;
-    color: #540a0a;
-}
+     color: #1a1a1a;
 
-.card-destaque {
-    background-color: #fef9e7;
-    border-color: #f1c40f;
-    color: #7d6608;
-}
+ }
 
-/* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
-.aviso {
-    padding: 12px 16px;
-    border-radius: 6px;
-    border-left: 5px solid;
-    margin-bottom: 15px;
-    font-size: 0.95rem;
-}
 
-/* Variantes dos Avisos */
-.aviso-info {
-    background-color: #e8f4f8;
-    border-color: #2980b9;
-    color: #1a5276;
-}
+ h1 {
 
-.aviso-alerta {
-    background-color: #fef9e7;
-    border-color: #f39c12;
-    color: #7d6608;
-}
+     font-size: 32px;
 
-/* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
-.btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-right: 10px;
-}
+ }
 
-/* Variantes dos Botões */
-.btn-sucesso {
-    background-color: #27ae60;
-    color: #ffffff;
-}
 
-.btn-limpar {
-    background-color: #95a5a6;
-    color: #ffffff;
-}
+ h2 {
 
-/* --- ESTILIZAÇÃO DE TABELAS --- */
-.tabela {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: var(--bg-card);
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    margin-bottom: 2rem;
-    box-shadow: 0 10px 25px ;
-    border: 1px solid #0ecf8f5d;
-}
+     font-size: 24px;
 
-.tabela th, 
-.tabela td {
-    padding: 12px 16px;
-    text-align: left;
-}
+     margin-bottom: 8px;
 
-.tabela th {
-    background-color: #0ba4856c;
-    color: var(--primary);
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    letter-spacing: 0.05em;
-}
+     color: #540a0a;
 
-.tabela tr {
-    border-bottom: 1px solid #0ba48577;
-}
+ }
 
-.tabela tbody tr:last-child {
-    border-bottom: none;
-}
 
-.tabela tbody tr:hover {
-    background-color: #0ba485;
-}
+ p {
 
-/* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
-a.btn {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    box-sizing: border-box;
-}
+     margin-bottom: 16px;
 
-.acoes-links {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
+ }
 
-/* Nova variante para botões secundários/links externos */
-.btn-secundario {
-    background-color: #0ba485;
-    color: var(--text-primary);
-}
 
-.btn-secundario:hover {
-    background-color: #0ba485;
-}
-/* --- IMAGEM --- */
+ a {
+
+     text-decoration: none;
+
+     color: #080808;
+
+ }
+
+
+ /* Cabeçalho e navegação */
+
+ header {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     padding: 32px 16px;
+
+     text-align: center;
+
+ }
+
+
+ header h1 {
+
+     color: #ffffff;
+
+     letter-spacing: 2px;
+
+     text-transform: uppercase;
+
+ }
+
+
+ nav ul {
+
+     list-style: none;
+
+     margin-top: 12px;
+
+ }
+
+
+ nav li {
+
+     display: inline-block;
+
+     margin: 0 16px;
+
+ }
+
+
+ nav a {
+
+     color: #E0F2FE;
+
+     font-weight: bold;
+
+ }
+
+
+ nav a:hover {
+
+     color: #ffffff;
+
+ }
+
+
+ /* Layout principal */
+
+ main {
+
+     max-width: 960px;
+
+     margin: 0 auto;
+
+     padding: 32px 16px;
+
+ }
+
+
+ /* Rodapé */
+
+ footer {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     text-align: center;
+
+     padding: 24px 16px;
+
+ }
+
+
+ .card {
+
+     padding: 16px;
+
+     border-radius: 8px;
+
+     border-width: 2px;
+
+     border-style: solid;
+
+     margin-top: 15px;
+
+ }
+
+
+ .card h3 {
+
+     margin-top: 0;
+
+     margin-bottom: 8px;
+
+ }
+
+
+ .card p {
+
+     margin: 0;
+
+ }
+
+
+ .card-info {
+
+     background-color: #dd6a6a87;
+
+     border-color: #540a0a;
+
+     color: #540a0a;
+
+ }
+
+
+ .card-destaque {
+
+     background-color: #fef9e7;
+
+     border-color: #f1c40f;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
+
+ .aviso {
+
+     padding: 12px 16px;
+
+     border-radius: 6px;
+
+     border-left: 5px solid;
+
+     margin-bottom: 15px;
+
+     font-size: 0.95rem;
+
+ }
+
+
+ /* Variantes dos Avisos */
+
+ .aviso-info {
+
+     background-color: #e8f4f8;
+
+     border-color: #2980b9;
+
+     color: #1a5276;
+
+ }
+
+
+ .aviso-alerta {
+
+     background-color: #fef9e7;
+
+     border-color: #f39c12;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
+
+ .btn {
+
+     padding: 10px 20px;
+
+     font-size: 1rem;
+
+     font-weight: bold;
+
+     border: none;
+
+     border-radius: 4px;
+
+     cursor: pointer;
+
+     margin-top: 10px;
+
+     margin-right: 10px;
+
+ }
+
+
+ /* Variantes dos Botões */
+
+ .btn-sucesso {
+
+     background-color: #27ae60;
+
+     color: #ffffff;
+
+ }
+
+
+ .btn-limpar {
+
+     background-color: #95a5a6;
+
+     color: #ffffff;
+
+ }
+
+
+ /* --- ESTILIZAÇÃO DE TABELAS --- */
+
+ .tabela {
+
+     width: 100%;
+
+     border-collapse: collapse;
+
+     background-color: var(--bg-card);
+
+     border-radius: var(--border-radius);
+
+     overflow: hidden;
+
+     margin-bottom: 2rem;
+
+     box-shadow: 0 10px 25px;
+
+     border: 1px solid #0ecf8f5d;
+
+ }
+
+
+ .tabela th,
+
+ .tabela td {
+
+     padding: 12px 16px;
+
+     text-align: left;
+
+ }
+
+
+ .tabela th {
+
+     background-color: #0ba4856c;
+
+     color: var(--primary);
+
+     font-weight: 700;
+
+     text-transform: uppercase;
+
+     font-size: 0.85rem;
+
+     letter-spacing: 0.05em;
+
+ }
+
+
+ .tabela tr {
+
+     border-bottom: 1px solid #0ba48577;
+
+ }
+
+
+ .tabela tbody tr:last-child {
+
+     border-bottom: none;
+
+ }
+
+
+ .tabela tbody tr:hover {
+
+     background-color: #0ba485;
+
+ }
+
+
+ /* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
+
+ a.btn {
+
+     display: block;
+
+     text-align: center;
+
+     text-decoration: none;
+
+     box-sizing: border-box;
+
+ }
+
+
+ .acoes-links {
+
+     display: flex;
+
+     flex-direction: column;
+
+     gap: 12px;
+
+ }
+
+
+ /* Nova variante para botões secundários/links externos */
+
+ .btn-secundario {
+
+     background-color: #0ba485;
+
+     color: var(--text-primary);
+
+ }
+
+
+ .btn-secundario:hover {
+
+     background-color: #0ba485;
+
+ }
+
+ /* --- IMAGEM --- */
+
+
+ /* Reset global */
+
+ * {
+
+     margin: 0;
+
+     padding: 0;
+
+     box-sizing: border-box;
+
+ }
+
+
+ /* Base e tipografia */
+
+ body {
+
+     font-family: Arial, Helvetica, sans-serif;
+
+     color: #1a1a1a;
+
+     background-color: #ffffff;
+
+     line-height: 1.6;
+
+ }
+
+
+ h1,
+
+ h2,
+
+ h3 {
+
+     font-family: Georgia, serif;
+
+     color: #1a1a1a;
+
+ }
+
+
+ h1 {
+
+     font-size: 32px;
+
+ }
+
+
+ h2 {
+
+     font-size: 24px;
+
+     margin-bottom: 8px;
+
+     color: #540a0a;
+
+ }
+
+
+ p {
+
+     margin-bottom: 16px;
+
+ }
+
+
+ a {
+
+     text-decoration: none;
+
+     color: #080808;
+
+ }
+
+
+ /* Cabeçalho e navegação */
+
+ header {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     padding: 32px 16px;
+
+     text-align: center;
+
+ }
+
+
+ header h1 {
+
+     color: #ffffff;
+
+     letter-spacing: 2px;
+
+     text-transform: uppercase;
+
+ }
+
+
+ nav ul {
+
+     list-style: none;
+
+     margin-top: 12px;
+
+ }
+
+
+ nav li {
+
+     display: inline-block;
+
+     margin: 0 16px;
+
+ }
+
+
+ nav a {
+
+     color: #E0F2FE;
+
+     font-weight: bold;
+
+ }
+
+
+ nav a:hover {
+
+     color: #ffffff;
+
+ }
+
+
+ /* Layout principal */
+
+ main {
+
+     max-width: 960px;
+
+     margin: 0 auto;
+
+     padding: 32px 16px;
+
+ }
+
+
+ /* Rodapé */
+
+ footer {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     text-align: center;
+
+     padding: 24px 16px;
+
+ }
+
+
+ .card {
+
+     padding: 16px;
+
+     border-radius: 8px;
+
+     border-width: 2px;
+
+     border-style: solid;
+
+     margin-top: 15px;
+
+ }
+
+
+ .card h3 {
+
+     margin-top: 0;
+
+     margin-bottom: 8px;
+
+ }
+
+
+ .card p {
+
+     margin: 0;
+
+ }
+
+
+ .card-info {
+
+     background-color: #dd6a6a87;
+
+     border-color: #540a0a;
+
+     color: #540a0a;
+
+ }
+
+
+ .card-destaque {
+
+     background-color: #fef9e7;
+
+     border-color: #f1c40f;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
+
+ .aviso {
+
+     padding: 12px 16px;
+
+     border-radius: 6px;
+
+     border-left: 5px solid;
+
+     margin-bottom: 15px;
+
+     font-size: 0.95rem;
+
+ }
+
+
+ /* Variantes dos Avisos */
+
+ .aviso-info {
+
+     background-color: #e8f4f8;
+
+     border-color: #2980b9;
+
+     color: #1a5276;
+
+ }
+
+
+ .aviso-alerta {
+
+     background-color: #fef9e7;
+
+     border-color: #f39c12;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
+
+ .btn {
+
+     padding: 10px 20px;
+
+     font-size: 1rem;
+
+     font-weight: bold;
+
+     border: none;
+
+     border-radius: 4px;
+
+     cursor: pointer;
+
+     margin-top: 10px;
+
+     margin-right: 10px;
+
+ }
+
+
+ /* Variantes dos Botões */
+
+ .btn-sucesso {
+
+     background-color: #27ae60;
+
+     color: #ffffff;
+
+ }
+
+
+ .btn-limpar {
+
+     background-color: #95a5a6;
+
+     color: #ffffff;
+
+ }
+
+
+ /* --- ESTILIZAÇÃO DE TABELAS --- */
+
+ .tabela {
+
+     width: 100%;
+
+     border-collapse: collapse;
+
+     background-color: var(--bg-card);
+
+     border-radius: var(--border-radius);
+
+     overflow: hidden;
+
+     margin-bottom: 2rem;
+
+     box-shadow: 0 10px 25px;
+
+     border: 1px solid #0ecf8f5d;
+
+ }
+
+
+ .tabela th,
+
+ .tabela td {
+
+     padding: 12px 16px;
+
+     text-align: left;
+
+ }
+
+
+ .tabela th {
+
+     background-color: #0ba4856c;
+
+     color: var(--primary);
+
+     font-weight: 700;
+
+     text-transform: uppercase;
+
+     font-size: 0.85rem;
+
+     letter-spacing: 0.05em;
+
+ }
+
+
+ .tabela tr {
+
+     border-bottom: 1px solid #0ba48577;
+
+ }
+
+
+ .tabela tbody tr:last-child {
+
+     border-bottom: none;
+
+ }
+
+
+ .tabela tbody tr:hover {
+
+     background-color: #0ba485;
+
+ }
+
+
+ /* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
+
+ a.btn {
+
+     display: block;
+
+     text-align: center;
+
+     text-decoration: none;
+
+     box-sizing: border-box;
+
+ }
+
+
+ .acoes-links {
+
+     display: flex;
+
+     flex-direction: column;
+
+     gap: 12px;
+
+ }
+
+
+ /* Nova variante para botões secundários/links externos */
+
+ .btn-secundario {
+
+     background-color: #0ba485;
+
+     color: var(--text-primary);
+
+ }
+
+
+ .btn-secundario:hover {
+
+     background-color: #0ba485;
+
+ }
+
+ /* --- IMAGEM --- */
+
+
+ /* Reset global */
+
+ * {
+
+     margin: 0;
+
+     padding: 0;
+
+     box-sizing: border-box;
+
+ }
+
+
+ /* Base e tipografia */
+
+ body {
+
+     font-family: Arial, Helvetica, sans-serif;
+
+     color: #1a1a1a;
+
+     background-color: #ffffff;
+
+     line-height: 1.6;
+
+ }
+
+
+ h1,
+
+ h2,
+
+ h3 {
+
+     font-family: Georgia, serif;
+
+     color: #1a1a1a;
+
+ }
+
+
+ h1 {
+
+     font-size: 32px;
+
+ }
+
+
+ h2 {
+
+     font-size: 24px;
+
+     margin-bottom: 8px;
+
+     color: #540a0a;
+
+ }
+
+
+ p {
+
+     margin-bottom: 16px;
+
+ }
+
+
+ a {
+
+     text-decoration: none;
+
+     color: #080808;
+
+ }
+
+
+ /* Cabeçalho e navegação */
+
+ header {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     padding: 32px 16px;
+
+     text-align: center;
+
+ }
+
+
+ header h1 {
+
+     color: #ffffff;
+
+     letter-spacing: 2px;
+
+     text-transform: uppercase;
+
+ }
+
+
+ nav ul {
+
+     list-style: none;
+
+     margin-top: 12px;
+
+ }
+
+
+ nav li {
+
+     display: inline-block;
+
+     margin: 0 16px;
+
+ }
+
+
+ nav a {
+
+     color: #E0F2FE;
+
+     font-weight: bold;
+
+ }
+
+
+ nav a:hover {
+
+     color: #ffffff;
+
+ }
+
+
+ /* Layout principal */
+
+ main {
+
+     max-width: 960px;
+
+     margin: 0 auto;
+
+     padding: 32px 16px;
+
+ }
+
+
+ /* Rodapé */
+
+ footer {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     text-align: center;
+
+     padding: 24px 16px;
+
+ }
+
+
+ .card {
+
+     padding: 16px;
+
+     border-radius: 8px;
+
+     border-width: 2px;
+
+     border-style: solid;
+
+     margin-top: 15px;
+
+ }
+
+
+ .card h3 {
+
+     margin-top: 0;
+
+     margin-bottom: 8px;
+
+ }
+
+
+ .card p {
+
+     margin: 0;
+
+ }
+
+
+ .card-info {
+
+     background-color: #dd6a6a87;
+
+     border-color: #540a0a;
+
+     color: #540a0a;
+
+ }
+
+
+ .card-destaque {
+
+     background-color: #fef9e7;
+
+     border-color: #f1c40f;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
+
+ .aviso {
+
+     padding: 12px 16px;
+
+     border-radius: 6px;
+
+     border-left: 5px solid;
+
+     margin-bottom: 15px;
+
+     font-size: 0.95rem;
+
+ }
+
+
+ /* Variantes dos Avisos */
+
+ .aviso-info {
+
+     background-color: #e8f4f8;
+
+     border-color: #2980b9;
+
+     color: #1a5276;
+
+ }
+
+
+ .aviso-alerta {
+
+     background-color: #fef9e7;
+
+     border-color: #f39c12;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
+
+ .btn {
+
+     padding: 10px 20px;
+
+     font-size: 1rem;
+
+     font-weight: bold;
+
+     border: none;
+
+     border-radius: 4px;
+
+     cursor: pointer;
+
+     margin-top: 10px;
+
+     margin-right: 10px;
+
+ }
+
+
+ /* Variantes dos Botões */
+
+ .btn-sucesso {
+
+     background-color: #27ae60;
+
+     color: #ffffff;
+
+ }
+
+
+ .btn-limpar {
+
+     background-color: #95a5a6;
+
+     color: #ffffff;
+
+ }
+
+
+ /* --- ESTILIZAÇÃO DE TABELAS --- */
+
+ .tabela {
+
+     width: 100%;
+
+     border-collapse: collapse;
+
+     background-color: var(--bg-card);
+
+     border-radius: var(--border-radius);
+
+     overflow: hidden;
+
+     margin-bottom: 2rem;
+
+     box-shadow: 0 10px 25px;
+
+     border: 1px solid #0ecf8f5d;
+
+ }
+
+
+ .tabela th,
+
+ .tabela td {
+
+     padding: 12px 16px;
+
+     text-align: left;
+
+ }
+
+
+ .tabela th {
+
+     background-color: #0ba4856c;
+
+     color: var(--primary);
+
+     font-weight: 700;
+
+     text-transform: uppercase;
+
+     font-size: 0.85rem;
+
+     letter-spacing: 0.05em;
+
+ }
+
+
+ .tabela tr {
+
+     border-bottom: 1px solid #0ba48577;
+
+ }
+
+
+ .tabela tbody tr:last-child {
+
+     border-bottom: none;
+
+ }
+
+
+ .tabela tbody tr:hover {
+
+     background-color: #0ba485;
+
+ }
+
+
+ /* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
+
+ a.btn {
+
+     display: block;
+
+     text-align: center;
+
+     text-decoration: none;
+
+     box-sizing: border-box;
+
+ }
+
+
+ .acoes-links {
+
+     display: flex;
+
+     flex-direction: column;
+
+     gap: 12px;
+
+ }
+
+
+ /* Nova variante para botões secundários/links externos */
+
+ .btn-secundario {
+
+     background-color: #0ba485;
+
+     color: var(--text-primary);
+
+ }
+
+
+ .btn-secundario:hover {
+
+     background-color: #0ba485;
+
+ }
+
+ /* --- IMAGEM --- */
+
+
+ /* Reset global */
+
+ * {
+
+     margin: 0;
+
+     padding: 0;
+
+     box-sizing: border-box;
+
+ }
+
+
+ /* Base e tipografia */
+
+ body {
+
+     font-family: Arial, Helvetica, sans-serif;
+
+     color: #1a1a1a;
+
+     background-color: #ffffff;
+
+     line-height: 1.6;
+
+ }
+
+
+ h1,
+
+ h2,
+
+ h3 {
+
+     font-family: Georgia, serif;
+
+     color: #1a1a1a;
+
+ }
+
+
+ h1 {
+
+     font-size: 32px;
+
+ }
+
+
+ h2 {
+
+     font-size: 24px;
+
+     margin-bottom: 8px;
+
+     color: #540a0a;
+
+ }
+
+
+ p {
+
+     margin-bottom: 16px;
+
+ }
+
+
+ a {
+
+     text-decoration: none;
+
+     color: #080808;
+
+ }
+
+
+ /* Cabeçalho e navegação */
+
+ header {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     padding: 32px 16px;
+
+     text-align: center;
+
+ }
+
+
+ header h1 {
+
+     color: #ffffff;
+
+     letter-spacing: 2px;
+
+     text-transform: uppercase;
+
+ }
+
+
+ nav ul {
+
+     list-style: none;
+
+     margin-top: 12px;
+
+ }
+
+
+ nav li {
+
+     display: inline-block;
+
+     margin: 0 16px;
+
+ }
+
+
+ nav a {
+
+     color: #E0F2FE;
+
+     font-weight: bold;
+
+ }
+
+
+ nav a:hover {
+
+     color: #ffffff;
+
+ }
+
+
+ /* Layout principal */
+
+ main {
+
+     max-width: 960px;
+
+     margin: 0 auto;
+
+     padding: 32px 16px;
+
+ }
+
+
+ /* Rodapé */
+
+ footer {
+
+     background-color: #540a0a;
+
+     color: #ffffff;
+
+     text-align: center;
+
+     padding: 24px 16px;
+
+ }
+
+
+ .card {
+
+     padding: 16px;
+
+     border-radius: 8px;
+
+     border-width: 2px;
+
+     border-style: solid;
+
+     margin-top: 15px;
+
+ }
+
+
+ .card h3 {
+
+     margin-top: 0;
+
+     margin-bottom: 8px;
+
+ }
+
+
+ .card p {
+
+     margin: 0;
+
+ }
+
+
+ .card-info {
+
+     background-color: #dd6a6a87;
+
+     border-color: #540a0a;
+
+     color: #540a0a;
+
+ }
+
+
+ .card-destaque {
+
+     background-color: #fef9e7;
+
+     border-color: #f1c40f;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 1. BASE DOS AVISOS (Classe Compartilhada) --- */
+
+ .aviso {
+
+     padding: 12px 16px;
+
+     border-radius: 6px;
+
+     border-left: 5px solid;
+
+     margin-bottom: 15px;
+
+     font-size: 0.95rem;
+
+ }
+
+
+ /* Variantes dos Avisos */
+
+ .aviso-info {
+
+     background-color: #e8f4f8;
+
+     border-color: #2980b9;
+
+     color: #1a5276;
+
+ }
+
+
+ .aviso-alerta {
+
+     background-color: #fef9e7;
+
+     border-color: #f39c12;
+
+     color: #7d6608;
+
+ }
+
+
+ /* --- 2. BASE DOS BOTÕES (Classe Compartilhada) --- */
+
+ .btn {
+
+     padding: 10px 20px;
+
+     font-size: 1rem;
+
+     font-weight: bold;
+
+     border: none;
+
+     border-radius: 4px;
+
+     cursor: pointer;
+
+     margin-top: 10px;
+
+     margin-right: 10px;
+
+ }
+
+
+ /* Variantes dos Botões */
+
+ .btn-sucesso {
+
+     background-color: #27ae60;
+
+     color: #ffffff;
+
+ }
+
+
+ .btn-limpar {
+
+     background-color: #95a5a6;
+
+     color: #ffffff;
+
+ }
+
+
+ /* --- ESTILIZAÇÃO DE TABELAS --- */
+
+ .tabela {
+
+     width: 100%;
+
+     border-collapse: collapse;
+
+     background-color: var(--bg-card);
+
+     border-radius: var(--border-radius);
+
+     overflow: hidden;
+
+     margin-bottom: 2rem;
+
+     box-shadow: 0 10px 25px;
+
+     border: 1px solid #0ecf8f5d;
+
+ }
+
+
+ .tabela th,
+
+ .tabela td {
+
+     padding: 12px 16px;
+
+     text-align: left;
+
+ }
+
+
+ .tabela th {
+
+     background-color: #0ba4856c;
+
+     color: var(--primary);
+
+     font-weight: 700;
+
+     text-transform: uppercase;
+
+     font-size: 0.85rem;
+
+     letter-spacing: 0.05em;
+
+ }
+
+
+ .tabela tr {
+
+     border-bottom: 1px solid #0ba48577;
+
+ }
+
+
+ .tabela tbody tr:last-child {
+
+     border-bottom: none;
+
+ }
+
+
+ .tabela tbody tr:hover {
+
+     background-color: #0ba485;
+
+ }
+
+
+ /* --- AJUSTES EM LINKS FORMATADOS COMO BOTÃO --- */
+
+ a.btn {
+
+     display: block;
+
+     text-align: center;
+
+     text-decoration: none;
+
+     box-sizing: border-box;
+
+ }
+
+
+ .acoes-links {
+
+     display: flex;
+
+     flex-direction: column;
+
+     gap: 12px;
+
+ }
+
+
+ /* Nova variante para botões secundários/links externos */
+
+ .btn-secundario {
+
+     background-color: #0ba485;
+
+     color: var(--text-primary);
+
+ }
+
+
+ .btn-secundario:hover {
+
+     background-color: #0ba485;
+
+ }
+
+ /* --- IMAGEM --- */
